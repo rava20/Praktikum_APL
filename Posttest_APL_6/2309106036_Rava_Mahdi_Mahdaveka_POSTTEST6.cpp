@@ -286,7 +286,7 @@ void mainMenu() {
     do {
         tampilkanMenu();
         cout << "Masukkan pilihan (1-5): ";
-        while (!(cin >> pilihan) || pilihan < 1 || pilihan > 5) {
+        while (!(cin >> pilihan) || pilihan < 1 || pilihan > 6) {
             cout << "Pilihan tidak valid. Masukkan pilihan (1-5): ";
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
